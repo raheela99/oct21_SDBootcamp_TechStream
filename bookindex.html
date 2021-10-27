@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel='stylesheet' href='my_styles.css'/>  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Bookshop</h1>
+    </header>
+
+    <p>This independent bookshop aims to give you the best books from publishers whether they are small or large.<br/><br/> Browse our virtual shelves and enjoy!</p>
+    <hr/>
+    <section>
+        <form method='post'>
+    
+            <fieldset>
+                <legend>Search for Books:</legend>
+                <label for='genre' >Genre:</label>
+                        <select id='genre' name="genres">
+                        <option value='horror'>Horror</option>
+                        <option value='mystery'>Mystery</option>
+                        <option value='action'>Action</option>
+                        <option value='crime'>Crime</option>
+                        <option value='non-fiction'>Non-fiction</option>
+                        placeholder='Pick a genre'
+                    </select>
+                <br />
+                  
+                Year: <input type="text" name="Year"><br />
+                Author: <input type="text" name="Author"><br />
+                <input type="submit" value="Submit">
+            </fieldset>
+        </form>
+    </section>
+    <hr/>
+
+</body>
+</html>
